@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- SEO -->
+  <title>Lucas Oliveira | Consultor de Planos de Saúde</title>
+  <meta name="description" content="Consultoria personalizada em planos de saúde para famílias, PME e empresas em todo o Brasil. Fale com Lucas Oliveira e encontre o plano ideal para você." />
+  <meta name="keywords" content="plano de saúde, consultor plano de saúde, plano familiar, plano empresarial, PME, consultoria saúde" />
+  <meta name="author" content="Lucas Oliveira" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lucasoliveira.com.br/" />
+  <meta property="og:title" content="Lucas Oliveira | Consultor de Planos de Saúde" />
+  <meta property="og:description" content="Encontre o plano de saúde ideal para você, sua família ou sua empresa. Consultoria gratuita e personalizada." />
+  <meta property="og:image" content="img/lucas-perfil.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lucas Oliveira | Consultor de Planos de Saúde" />
+  <meta name="twitter:description" content="Encontre o plano de saúde ideal para você, sua família ou sua empresa." />
+  <meta name="twitter:image" content="img/lucas-perfil.png" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon simples -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>" />
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo">
+        Lucas <span>Oliveira</span>
+      </a>
+      <nav class="header__nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20receber%20uma%20consultoria%20sobre%20planos%20de%20sa%C3%BAde." target="_blank" rel="noopener" class="btn btn--nav">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </nav>
+      <button class="header__toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__content" data-animate>
+        <div class="hero__eyebrow">
+          <span class="badge"><i class="fa-solid fa-shield-heart"></i> Consultor Independente · Brasil</span>
+        </div>
+        <h1 class="hero__title">
+          Encontre o plano de saúde <em>ideal</em> para você, sua família ou sua empresa.
+        </h1>
+        <p class="hero__sub">
+          Consultoria personalizada para comparar opções, esclarecer dúvidas e encontrar a solução mais adequada para sua realidade — sem custo adicional para você.
+        </p>
+        <div class="hero__pills">
+          <span><i class="fa-solid fa-users"></i> Família</span>
+          <span><i class="fa-solid fa-building"></i> Empresas</span>
+          <span><i class="fa-solid fa-heart-pulse"></i> PME</span>
+        </div>
+        <div class="hero__ctas">
+          <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20receber%20uma%20consultoria%20sobre%20planos%20de%20sa%C3%BAde." target="_blank" rel="noopener" class="btn btn--primary">
+            <i class="fa-brands fa-whatsapp"></i> Falar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn--outline">
+            Solicitar uma consultoria <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+        <p class="hero__note"><i class="fa-solid fa-lock"></i> Consultoria 100% gratuita e sem compromisso</p>
+      </div>
+      <div class="hero__photo" data-animate-delay>
+        <div class="hero__photo-frame">
+          <img src="img/lucas-perfil.png" alt="Lucas Oliveira, Consultor de Planos de Saúde" loading="eager" />
+          <div class="hero__photo-badge">
+            <i class="fa-solid fa-star"></i>
+            <div>
+              <strong>+500</strong>
+              <small>Famílias atendidas</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--bg-light)" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE ========== -->
+  <section class="section sobre" id="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__visual" data-animate>
+        <div class="sobre__card-stat">
+          <strong>Brasil</strong>
+          <small>Atendimento nacional</small>
+        </div>
+        <div class="sobre__card-stat sobre__card-stat--gold">
+          <strong>100%</strong>
+          <small>Gratuito para você</small>
+        </div>
+        <div class="sobre__card-stat">
+          <strong>PME &amp; Familiar</strong>
+          <small>Soluções completas</small>
+        </div>
+      </div>
+      <div class="sobre__content" data-animate>
+        <div class="section__eyebrow">Sobre mim</div>
+        <h2 class="section__title">Atendimento consultivo e personalizado</h2>
+        <p class="sobre__text">
+          Meu compromisso é simplificar a escolha do seu plano de saúde, apresentando opções de forma clara e acompanhando você em todas as etapas — desde a análise das necessidades até a contratação e o pós-venda.
+        </p>
+        <p class="sobre__text">
+          Como consultor independente, minha única prioridade é encontrar a solução mais adequada para a sua realidade. Trabalho com as principais operadoras do mercado e ofereço uma visão imparcial e honesta para que você tome a melhor decisão.
+        </p>
+        <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20receber%20uma%20consultoria%20sobre%20planos%20de%20sa%C3%BAde." target="_blank" rel="noopener" class="btn btn--primary">
+          <i class="fa-brands fa-whatsapp"></i> Conversar agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVIÇOS ========== -->
+  <section class="section servicos" id="servicos">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <div class="section__eyebrow">O que ofereço</div>
+        <h2 class="section__title">Soluções para cada necessidade</h2>
+        <p class="section__desc">Seja para proteger sua família ou estruturar os benefícios da sua empresa, tenho a solução certa para você.</p>
+      </div>
+      <div class="servicos__grid">
+
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <i class="fa-solid fa-house-medical"></i>
+          </div>
+          <h3>Planos Familiares</h3>
+          <p>Proteção completa para toda a família, com cobertura adequada às necessidades de cada integrante, em todas as fases da vida.</p>
+          <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20saber%20mais%20sobre%20Planos%20Familiares." target="_blank" rel="noopener" class="service-card__link">
+            Saiba mais <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <i class="fa-solid fa-building-user"></i>
+          </div>
+          <h3>Planos PME</h3>
+          <p>Soluções especiais para pequenas e médias empresas que desejam oferecer saúde de qualidade aos colaboradores com custo acessível.</p>
+          <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20saber%20mais%20sobre%20Planos%20PME." target="_blank" rel="noopener" class="service-card__link">
+            Saiba mais <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <i class="fa-solid fa-city"></i>
+          </div>
+          <h3>Planos Empresariais</h3>
+          <p>Estruturação completa de benefícios corporativos para médias e grandes empresas, com foco em retenção de talentos e produtividade.</p>
+          <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20saber%20mais%20sobre%20Planos%20Empresariais." target="_blank" rel="noopener" class="service-card__link">
+            Saiba mais <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="service-card service-card--featured" data-animate>
+          <div class="service-card__icon">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <h3>Consultoria e Comparação</h3>
+          <p>Análise completa e imparcial das principais operadoras do mercado para que você escolha com segurança e sem perder tempo.</p>
+          <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20uma%20consultoria%20e%20compara%C3%A7%C3%A3o%20de%20planos." target="_blank" rel="noopener" class="service-card__link">
+            Solicitar agora <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POR QUE TER UM CONSULTOR ========== -->
+  <section class="section porque" id="porque">
+    <div class="container porque__inner">
+      <div class="porque__content" data-animate>
+        <div class="section__eyebrow">Sua vantagem</div>
+        <h2 class="section__title">Por que ter um consultor ao seu lado?</h2>
+        <div class="porque__list">
+          <div class="porque__item">
+            <div class="porque__icon"><i class="fa-solid fa-user-tie"></i></div>
+            <div>
+              <strong>Orientação especializada</strong>
+              <p>Você conta com um profissional que conhece o mercado a fundo e pode indicar o caminho mais adequado para o seu perfil.</p>
+            </div>
+          </div>
+          <div class="porque__item">
+            <div class="porque__icon"><i class="fa-solid fa-chart-bar"></i></div>
+            <div>
+              <strong>Comparação simplificada</strong>
+              <p>Receba uma análise clara das melhores opções do mercado, sem precisar pesquisar horas na internet.</p>
+            </div>
+          </div>
+          <div class="porque__item">
+            <div class="porque__icon"><i class="fa-solid fa-headset"></i></div>
+            <div>
+              <strong>Suporte em todo o processo</strong>
+              <p>Estou presente desde o primeiro contato até a ativação do plano — e além.</p>
+            </div>
+          </div>
+          <div class="porque__item">
+            <div class="porque__icon porque__icon--gold"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <strong>Sem custo adicional</strong>
+              <p>Você não paga nada a mais pela consultoria. Meu serviço é totalmente gratuito para o contratante do plano.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="porque__visual" data-animate-delay>
+        <div class="porque__highlight-box">
+          <i class="fa-solid fa-handshake fa-3x"></i>
+          <h3>Consultoria <span>100% gratuita</span></h3>
+          <p>Você não paga nada a mais por ter um especialista ao seu lado. A operadora remunera o consultor, não o cliente.</p>
+          <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20receber%20uma%20consultoria%20sobre%20planos%20de%20sa%C3%BAde." target="_blank" rel="noopener" class="btn btn--primary" style="margin-top:1.5rem">
+            <i class="fa-brands fa-whatsapp"></i> Começar agora
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIFERENCIAIS ========== -->
+  <section class="section diferenciais" id="diferenciais">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <div class="section__eyebrow">Meus diferenciais</div>
+        <h2 class="section__title">O que me faz diferente</h2>
+      </div>
+      <div class="diferenciais__grid">
+        <div class="diferencial-item" data-animate>
+          <div class="diferencial-item__icon"><i class="fa-solid fa-heart"></i></div>
+          <h4>Atendimento humanizado</h4>
+          <p>Cada cliente é único. Ouço com atenção antes de recomendar qualquer solução.</p>
+        </div>
+        <div class="diferencial-item" data-animate>
+          <div class="diferencial-item__icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h4>Comparação de opções</h4>
+          <p>Analiso as principais operadoras para apresentar o melhor custo-benefício para você.</p>
+        </div>
+        <div class="diferencial-item" data-animate>
+          <div class="diferencial-item__icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+          <h4>Suporte antes e após</h4>
+          <p>Meu trabalho não termina na assinatura. Estou disponível para dúvidas no pós-venda.</p>
+        </div>
+        <div class="diferencial-item" data-animate>
+          <div class="diferencial-item__icon"><i class="fa-solid fa-bolt"></i></div>
+          <h4>Agilidade no atendimento</h4>
+          <p>Respostas rápidas e processos desburocratizados para não perder seu tempo.</p>
+        </div>
+        <div class="diferencial-item" data-animate>
+          <div class="diferencial-item__icon"><i class="fa-solid fa-people-roof"></i></div>
+          <h4>Família e Empresas</h4>
+          <p>Soluções completas tanto para proteger sua família quanto para beneficiar sua equipe.</p>
+        </div>
+        <div class="diferencial-item" data-animate>
+          <div class="diferencial-item__icon"><i class="fa-solid fa-map-location-dot"></i></div>
+          <h4>Atendimento Nacional</h4>
+          <p>Presente em todo o Brasil, com atendimento remoto ágil e eficiente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMO FUNCIONA ========== -->
+  <section class="section como-funciona" id="como-funciona">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <div class="section__eyebrow">Processo</div>
+        <h2 class="section__title">Como funciona a consultoria</h2>
+        <p class="section__desc">Em quatro passos simples, você vai do primeiro contato ao plano ativo — sem complicação.</p>
+      </div>
+      <div class="steps__grid">
+        <div class="step" data-animate>
+          <div class="step__num">01</div>
+          <div class="step__icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <h4>Você entra em contato</h4>
+          <p>Me manda uma mensagem pelo WhatsApp. Sem formulários, sem espera.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step" data-animate>
+          <div class="step__num">02</div>
+          <div class="step__icon"><i class="fa-solid fa-comments"></i></div>
+          <h4>Entendo sua necessidade</h4>
+          <p>Conversamos sobre o seu perfil, quantidade de beneficiários e expectativas.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step" data-animate>
+          <div class="step__num">03</div>
+          <div class="step__icon"><i class="fa-solid fa-list-check"></i></div>
+          <h4>Apresento as melhores opções</h4>
+          <p>Você recebe uma comparação clara das operadoras mais adequadas para o seu caso.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step" data-animate>
+          <div class="step__num">04</div>
+          <div class="step__icon"><i class="fa-solid fa-handshake-simple"></i></div>
+          <h4>Auxilio na contratação e pós-venda</h4>
+          <p>Acompanho todo o processo de contratação e continuo disponível após a ativação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DEPOIMENTOS ========== -->
+  <!--
+    ============================================================
+    TODO: Substituir os depoimentos abaixo por relatos reais
+    de clientes. Solicite permissão de cada cliente antes de
+    publicar nome e foto. Depoimentos em vídeo ou com foto
+    aumentam a credibilidade significativamente.
+    ============================================================
+  -->
+  <section class="section depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <div class="section__eyebrow">Depoimentos</div>
+        <h2 class="section__title">O que dizem meus clientes</h2>
+      </div>
+      <div class="depoimentos__grid">
+
+        <div class="depo-card" data-animate>
+          <div class="depo-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="depo-card__text">"O Lucas foi incrível! Me apresentou várias opções e explicou cada detalhe com paciência. Consegui um plano ótimo para minha família sem pagar nada pela consultoria."</p>
+          <div class="depo-card__author">
+            <div class="depo-card__avatar">MR</div>
+            <div>
+              <strong>Maria R.</strong>
+              <small>Plano Familiar · São Paulo/SP</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="depo-card" data-animate>
+          <div class="depo-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="depo-card__text">"Nossa empresa precisava estruturar um plano de saúde para os colaboradores e o Lucas nos ajudou do início ao fim. Processo rápido, transparente e sem dor de cabeça."</p>
+          <div class="depo-card__author">
+            <div class="depo-card__avatar">CS</div>
+            <div>
+              <strong>Carlos S.</strong>
+              <small>Plano Empresarial · Rio de Janeiro/RJ</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="depo-card" data-animate>
+          <div class="depo-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="depo-card__text">"Estava perdido entre tantas opções e o Lucas me deu total segurança na escolha. Atendimento rápido, honesto e sem pressão. Super recomendo!"</p>
+          <div class="depo-card__author">
+            <div class="depo-card__avatar">AF</div>
+            <div>
+              <strong>Ana F.</strong>
+              <small>Plano PME · Belo Horizonte/MG</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA FINAL ========== -->
+  <section class="section cta-final" id="contato">
+    <div class="container cta-final__inner" data-animate>
+      <div class="cta-final__content">
+        <h2 class="cta-final__title">Vamos encontrar o plano ideal para você?</h2>
+        <p class="cta-final__sub">Receba uma orientação personalizada e descubra as melhores opções para sua família ou empresa. Sem custo, sem compromisso.</p>
+        <a href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20receber%20uma%20consultoria%20sobre%20planos%20de%20sa%C3%BAde." target="_blank" rel="noopener" class="btn btn--cta">
+          <i class="fa-brands fa-whatsapp"></i> Conversar pelo WhatsApp
+        </a>
+        <p class="cta-final__note">Atendimento em todo o Brasil · Resposta rápida</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Lucas <em>Oliveira</em></span>
+        <p>Consultor de Planos de Saúde<br/>Atendimento em todo o Brasil</p>
+      </div>
+      <div class="footer__links">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </div>
+      <div class="footer__contact">
+        <a href="https://wa.me/5511932277961" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> (11) 93227-7961
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Lucas Oliveira · Consultor de Planos de Saúde</p>
+    </div>
+  </footer>
+
+  <!-- ========== BOTÃO FLUTUANTE WHATSAPP ========== -->
+  <a
+    href="https://wa.me/5511932277961?text=Ol%C3%A1%2C%20Lucas%21%20Gostaria%20de%20receber%20uma%20consultoria%20sobre%20planos%20de%20sa%C3%BAde."
+    target="_blank"
+    rel="noopener"
+    class="whatsapp-float"
+    aria-label="Falar com Lucas pelo WhatsApp"
+    id="whatsappFloat"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-float__tooltip">Falar com Lucas</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
